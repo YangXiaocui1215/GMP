@@ -14,7 +14,8 @@ The image-text data that is used in our paper can be downloaded from [Google Dri
 <img width="825" alt="image" src="https://github.com/YangXiaocui1215/GMP/assets/48118336/5ac903a9-26f1-4a9d-a664-e11dd73a31fc">
 
 # Task Training
-To Train the JMASA, MASC, and MATE tasks on two twitter datasets, you can just run the following code. Note that you need to change all the file path in file "GMP/src/data/jsons/few_shot_for_prompt/twitter_2015/" and "GMP/src/data/jsons/few_shot_for_prompt/twitter17_info.json" to your own path.
+To Train the JMASA, MASC, and MATE tasks on two twitter datasets, you can just run the following code. 
+Note that you need to change all the file path in file "GMP/src/data/jsons/few_shot_for_prompt/twitter_2015/" and "GMP/src/data/jsons/few_shot_for_prompt/twitter17_info.json" to your own path.
 
 ## For the MATE task,
 ```
@@ -25,6 +26,10 @@ sh scripts/17MATE_pretrain_for_generated_prompt_multitasks.sh
 ```
 sh scripts/15_pretrain_full_for_generated_dual_prompts_multitasks_Aspect.sh
 sh scripts/17_pretrain_full_for_generated_dual_prompts_multitasks_Aspect.sh
+```
+## For the MASC task,
+```
+I will realease code soon, because the server is pulled away to repair.
 ```
 
 # Acknowledgements
