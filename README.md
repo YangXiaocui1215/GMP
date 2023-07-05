@@ -29,7 +29,8 @@ sh scripts/17_pretrain_full_for_generated_dual_prompts_multitasks_Aspect.sh
 ```
 ## For the MASC task,
 ```
-I will realease code soon, because the server is pulled away to repair.
+sh scripts/15MASC_pretrain_for_generated_prompt.sh
+sh scripts/17MASC_pretrain_for_generated_prompt.sh
 ```
 
 # Acknowledgements
